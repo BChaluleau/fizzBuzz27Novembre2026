@@ -2,8 +2,11 @@ package ilu2;
 
 public class FizzBuzzer {
 
+	private int turn = 0;
+
 	public String play() {
-		return "1";
+		turn++;
+		return Integer.toString(turn);
 	}
 
 }

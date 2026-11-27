@@ -16,8 +16,14 @@ class FizzBuzzerTest {
 	}
 
 	@Test
-	void test() {
+	void testPremierJoueur() {
 		assertEquals("1", fb.play());
+	}
+
+	@Test
+	void secondJoueur() {
+		fb.play();
+		assertEquals("2", fb.play());
 	}
 
 }

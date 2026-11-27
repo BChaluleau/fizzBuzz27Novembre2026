@@ -3,7 +3,7 @@
 ## backlog
 
 - [X] premier joueur dit 1
-- [ ] second joueur dit 2
+- [X] second joueur dit 2
 - [ ] 1, 2, Fizz en trois coups
 - [ ] 1, 2, Fizz, 4 
 - [ ] 1, 2, Fizz, 4, Buzz
