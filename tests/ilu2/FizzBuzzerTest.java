@@ -33,10 +33,15 @@ class FizzBuzzerTest {
 	}
 
 	private void preshot(int nbTurn) {
-		// refactor
 		for (int i = 0; i < nbTurn; i++) {
 			fb.play();
 		}
+	}
+
+	@Test
+	void testJ4() {
+		preshot(3);
+		assertEquals("4", fb.play());
 	}
 
 }

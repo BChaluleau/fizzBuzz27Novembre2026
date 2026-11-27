@@ -5,7 +5,7 @@
 - [X] premier joueur dit 1
 - [X] second joueur dit 2
 - [X] 1, 2, Fizz en trois coups
-- [ ] 1, 2, Fizz, 4 
+- [X] 1, 2, Fizz, 4 
 - [ ] 1, 2, Fizz, 4, Buzz
 - [ ] 1, 2, Fizz, 4, Buzz, Fizz
 - [ ] 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz
