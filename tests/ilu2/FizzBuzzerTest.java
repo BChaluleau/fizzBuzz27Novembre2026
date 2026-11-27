@@ -21,9 +21,22 @@ class FizzBuzzerTest {
 	}
 
 	@Test
-	void secondJoueur() {
+	void testSecondJoueur() {
 		fb.play();
 		assertEquals("2", fb.play());
+	}
+
+	@Test
+	void testJ3() {
+		preshot(2);
+		assertEquals("Fizz", fb.play());
+	}
+
+	private void preshot(int nbTurn) {
+		// refactor
+		for (int i = 0; i < nbTurn; i++) {
+			fb.play();
+		}
 	}
 
 }
