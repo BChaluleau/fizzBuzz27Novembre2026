@@ -7,7 +7,7 @@
 - [X] 1, 2, Fizz en trois coups
 - [X] 1, 2, Fizz, 4 
 - [X] 1, 2, Fizz, 4, Buzz
-- [ ] 1, 2, Fizz, 4, Buzz, Fizz
+- [X] 1, 2, Fizz, 4, Buzz, Fizz
 - [ ] 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz
 - [ ] 14 coups --> 15eme "FizzBuzz"
 - [ ] vérif globale 30 premiers coups: 

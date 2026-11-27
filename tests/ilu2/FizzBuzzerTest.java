@@ -45,6 +45,13 @@ class FizzBuzzerTest {
 
 	}
 
+	@Test
+	void testSecondFizz() {
+		preshot(5);
+		assertEquals("Fizz", fb.play());
+
+	}
+
 	private void preshot(int nbTurn) {
 		for (int i = 0; i < nbTurn; i++) {
 			fb.play();
