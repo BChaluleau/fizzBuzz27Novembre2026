@@ -2,16 +2,21 @@ package ilu2;
 
 public class FizzBuzzer {
 
-	private static final int MAGIC_NUMBER = 3;
-	private static final String MAGIC_KEY = "Fizz";
+	private static final int[] MAGIC_NUMBERS = { 3, 5 };
+
+	private static final String[] MAGIC_KEYS = { "Fizz", "Buzz" };
 
 	private int turn = 0;
 
 	public String play() {
 		turn++;
-		if (turn == MAGIC_NUMBER) {
-			return MAGIC_KEY;
+
+		for (int i = 0; i < MAGIC_NUMBERS.length; i++) {
+			if (turn == MAGIC_NUMBERS[i]) {
+				return MAGIC_KEYS[i];
+			}
 		}
+
 		return Integer.toString(turn);
 	}
 
